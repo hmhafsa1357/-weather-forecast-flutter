@@ -1,0 +1,30 @@
+name: weather_forecast_app
+description: "A Flutter weather app with live conditions, hourly and 7-day forecasts, and city search."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Network requests to the weather API
+  http: ^1.2.2
+
+  # Saves last city, recent searches and settings
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
